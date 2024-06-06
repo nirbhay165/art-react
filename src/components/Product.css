@@ -1,0 +1,28 @@
+/* src/components/Product.css */
+.product {
+  display: inline-block;
+  margin: 20px 1%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid var(--theme-font-color);
+  background-color: var(--theme-button-color);
+  border-radius: 5px;
+}
+
+.product img {
+  width: 350px;
+  height: 350px;
+  display: block;
+}
+
+button {
+  background-color: var(--theme-color);
+  color: var(--theme-font-color);
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: auto; /* Set button width to auto */
+  height: auto; /* Set button height to auto */
+}

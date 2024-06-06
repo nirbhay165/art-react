@@ -1,0 +1,39 @@
+:root {
+  --title-font: 'Gloock';
+  --theme-font: 'Poppins';
+  --highlight-weight: bold;
+  --highlight-size: 24px;
+  --theme-background-color: #ede4e0;
+  --theme-color: rgb(165, 105, 71);
+  --theme-hover: rgb(248, 217, 199);
+  --theme-shadow: rgba(0, 0, 0, 0.684);
+  --theme-font-color: rgb(205, 204, 204);
+  --theme-button-color: rgb(238, 238, 238);
+  --theme-details-color: rgb(95, 57, 35);
+}
+
+body {
+  font-family: var(--theme-font);
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background-color: var(--theme-background-color);
+}
+
+button {
+  background-color: var(--theme-color);
+  color: var(--theme-font-color);
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: auto;
+  height: auto;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

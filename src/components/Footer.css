@@ -1,0 +1,7 @@
+/* Footer specific styles, if any, can be added here */
+footer {
+    background-color: var(--theme-background-color);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
